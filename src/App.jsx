@@ -10,7 +10,12 @@ function App() {
     <>
       <CartContext>
         <BrowserRouter>
+          <br />
+          <hr />
           <Navbar />
+          <hr />
+          <br />
+          <small>Cart function using useContext</small>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/cart" element={<Cart />} />
